@@ -21,5 +21,5 @@ $("#js-shopping-list-form").on('submit', function(e){
   
   $('.shopping-list').on('click', '.shopping-item-toggle', function toggleItem(e) {
     e.preventDefault();
-    $(this).closest('li').children().toggleClass('shopping-item__checked');
+    $(this).closest('li').children('.shopping-item').toggleClass('shopping-item__checked');
   });
